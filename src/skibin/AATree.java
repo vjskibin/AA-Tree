@@ -79,7 +79,7 @@ class AATree
             return T;
     }
 
-    private AANode decreaseLevel(AANode T)
+    private AANode decreaseLevel(AANode T) //whatever
     {
         int shouldBe = Math.min(T.left.level, T.right.level) + 1;
         if (shouldBe < T.level)
